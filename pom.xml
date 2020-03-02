@@ -26,11 +26,6 @@
             <name>jcenter-bintray</name>
             <url>https://jcenter.bintray.com</url>
         </repository>
-        <repository>
-            <id>Thunderbolt</id>
-            <name>Thunderbolt</name>
-            <url>https://github.com/TheGamingGrunts/Thunderbolt-2</url>
-        </repository>
     </repositories>
 
   <dependencies>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chatterbot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chatterbot_jar</output-path>
+    <root id="archive" name="Chatterbot.jar">
+      <element id="module-output" name="Chatterbot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libraries/Thunderbolt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libraries/JDA-4.1.0_95-withDependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="H:/cs312/discord-webhooks/build/libs/discord-webhooks-0.1.8-all.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
