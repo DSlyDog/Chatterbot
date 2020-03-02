@@ -5,7 +5,6 @@ import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.whispwriting.mystery_dungeon.commands.*;
-import net.whispwriting.mystery_dungeon.event.NewLineRead;
 import net.whispwriting.mystery_dungeon.event.TalkAsAlias;
 import net.whispwriting.mystery_dungeon.utils.AccountList;
 import net.whispwriting.mystery_dungeon.utils.Alias;
@@ -24,7 +23,7 @@ public class Chatterbot {
     public static TalkAsAlias talkAsAlias = new TalkAsAlias();
 
     public static void main(String[] args) throws LoginException {
-        jda = new JDABuilder(AccountType.BOT).setToken("NjQxNzUzMTUyNjMwMjkyNTQx.XcM96A.huvVtP7w9MyWQjeUbIqee0g3-Oo").build();
+        jda = new JDABuilder(AccountType.BOT).setToken("Njg0MTY5MzcyMTEzMzA1NjEx.Xl2MaA.BSA0gXdua9eo6DxXqpbfs1HOpm0").build();
         jda.getPresence().setActivity(Activity.playing("A Roleplay Game"));
         //jda.addEventListener(new HelpCommand());
         //jda.addEventListener(new CreateHelpCommand());
