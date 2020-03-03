@@ -17,8 +17,10 @@ public class JFile {
     private File file;
     private JSONParser parser = new JSONParser();
     private JSONObject out = new JSONObject();
+    private String name;
 
     public JFile(String name, String path) {
+        this.name = name;
         File fPath = new File(path);
         if (!fPath.exists())
             fPath.mkdirs();
@@ -49,7 +51,7 @@ public class JFile {
             e.printStackTrace();
             return "";
         }catch(ParseException e){
-            System.err.println("parse failed");
+            System.err.println("parse failed for " + name);
             e.printStackTrace();
             return "";
         }

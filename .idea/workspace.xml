@@ -7,7 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad256964-7bae-4f00-9469-56dc95a8264c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/0017/aliases/Veldritch Deathblight.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3428/aliases/Mio Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4538/aliases/Pastel Bravenheart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4949/aliases/Coleson Rose.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4949/aliases/Diana Masters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4949/aliases/Sylvia Masters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4949/aliases/Vyvix Luxray.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Ayla Phoxpin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Kiernan Drox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Kristine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Narrator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Portia.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Roberta Calypso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Rose Auburndale.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5879/aliases/Testy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Alice the Pokemon Trainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Calypso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Charles the Lucario.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Eiko Aki.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Jackal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Jackie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Mega Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Mio Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Moxi the Meowstic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Quincy the Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Rapture The Thunderjaw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Ruby the Vulpix.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Salem the Mega Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Samantha the Mew.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Shadow Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Shadow Giratina.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Shadow Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Shelby the Lunar Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Snow the Pure Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/The Narrator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Titan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Victoria.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7321/aliases/Xevana the Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chatterbot-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chatterbot-1.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chatterbot-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chatterbot-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/accounts/accounts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/JFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/JFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,21 +73,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="561">
               <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            <state relative-caret-position="112">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,21 +117,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
+            <state relative-caret-position="867">
               <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1723#2719#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,26 +138,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="1105">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-                <element signature="e#2000#2001#0" expanded="true" />
-                <element signature="e#2042#2043#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2125#2126#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2222#2223#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2316#2317#0" expanded="true" />
-                <element signature="e#2349#2350#0" expanded="true" />
-                <element signature="e#2379#2380#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
-                <element signature="e#2434#2435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="374">
               <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,9 +189,9 @@
         <option value="$PROJECT_DIR$/5879/aliases/Brick.json" />
         <option value="$PROJECT_DIR$/Make" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java" />
       </list>
     </option>
   </component>
@@ -210,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -291,7 +318,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,15 +375,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5026042" side_tool="true" weight="0.2574899" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3179396" />
@@ -368,6 +394,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,13 +413,7 @@
     <entry file="file://$PROJECT_DIR$/Chatterbot.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CharacterInfoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CharacterInfoCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CreateCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -417,12 +438,29 @@
     <entry file="file://$PROJECT_DIR$/5879/aliases/Ayla Phoxpin.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/accounts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5879/aliases/Brick.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/make">
       <provider selected="true" editor-type-id="text-editor">
@@ -431,57 +469,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/accounts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
+        <state relative-caret-position="867">
           <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="1105">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#2000#2001#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="374">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -490,27 +508,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        <state relative-caret-position="112">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1723#2719#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
           </folding>
         </state>
       </provider>
