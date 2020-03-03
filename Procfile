@@ -1,1 +1,1 @@
-worker: Make
+worker: ./make
