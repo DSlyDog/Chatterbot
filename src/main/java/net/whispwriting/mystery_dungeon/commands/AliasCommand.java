@@ -65,11 +65,9 @@ public class AliasCommand extends ListenerAdapter {
             }
             Message.Attachment avatarImg = attachments.get(0);
             Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), false);
-            alias.close();
             alias.load(event.getAuthor().getDiscriminator());
             alias.setAvatarURL(avatarImg.getUrl());
             alias.save();
-            alias.close();
             event.getChannel().sendTyping().queue();
             event.getChannel().sendMessage("Avatar for " + name + " has been updated.").queue();
 
@@ -83,7 +81,6 @@ public class AliasCommand extends ListenerAdapter {
             }
             String name = nameBuilder.toString();
             Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), true);
-            alias.close();
             alias.load(event.getAuthor().getDiscriminator());
             try {
                 alias.getName().equals("");
@@ -110,13 +107,11 @@ public class AliasCommand extends ListenerAdapter {
             String name = nameBuilder.toString();
             name = name.substring(0, name.length()-1);
             Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), false);
-            alias.close();
             boolean loaded = alias.load(event.getAuthor().getDiscriminator());
             if (loaded) {
                 String oldTag = alias.getTag();
                 alias.setTag(newTag);
                 alias.save();
-                alias.close();
                 Chatterbot.talkAsAlias.updateTag(oldTag, newTag, event.getAuthor().getDiscriminator());
                 event.getChannel().sendTyping().queue();
                 event.getChannel().sendMessage("Tag for " + name + " has been updated to " + newTag +".").queue();

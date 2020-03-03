@@ -63,7 +63,6 @@ public class TalkAsAlias extends ListenerAdapter {
 
             Alias alias = aliases.get(result+event.getAuthor().getDiscriminator());
             if (alias != null) {
-                alias.close();
                 alias.load(event.getAuthor().getDiscriminator());
                 Webhook pmdHook = null;
                 List<Webhook> hooks = event.getChannel().retrieveWebhooks().complete();

@@ -1,12 +1,7 @@
 package net.whispwriting.mystery_dungeon.utils;
 
-import io.bluecube.thunderbolt.Thunderbolt;
-import io.bluecube.thunderbolt.exceptions.FileLoadException;
-import io.bluecube.thunderbolt.io.ThunderFile;
-import io.bluecube.thunderbolt.org.json.JSONException;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.TextChannel;
-import netscape.javascript.JSException;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,7 +12,7 @@ public class Alias {
 
     String name;
     String avatarURL = ".";
-    ThunderFile aliasFile;
+    JFile aliasFile;
     String ownerID;
     String tag;
 
@@ -29,21 +24,13 @@ public class Alias {
         }
         File file = new File(System.getProperty("user.dir") + "/" + ownerID + "/aliases/" + name+".json");
         if (file.exists()) {
-            aliasFile = new ThunderFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-            try {
-                avatarURL = aliasFile.getString("avatarURL");
-            } catch (JSONException e) {
-                // alias was not preexisting
-            }
+            aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
+            avatarURL = aliasFile.getString("avatarURL");
             this.name = name;
         }else{
-            aliasFile = new ThunderFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-            try {
-                avatarURL = aliasFile.getString("avatarURL");
-                this.ownerID = aliasFile.getString("ownerID");
-            } catch (JSONException e) {
-                // alias was not preexisting
-            }
+            aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
+            avatarURL = aliasFile.getString("avatarURL");
+            this.ownerID = aliasFile.getString("ownerID");
             this.name = name;
             this.ownerID = ownerID;
             System.out.println("built");
@@ -93,24 +80,14 @@ public class Alias {
         return tag;
     }
 
-    public void close(){
-        Thunderbolt.unload(name);
-    }
-
     public boolean load(String ownerID){
-        try {
-            aliasFile = Thunderbolt.load(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-            avatarURL = aliasFile.getString("avatarURL");
-            name = aliasFile.getString("name");
-            tag = aliasFile.getString("tag");
-            return true;
-        } catch (FileLoadException e) {
-            //e.printStackTrace();
-            return true;
-        } catch (IOException e) {
-            //e.printStackTrace();
+        aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
+        avatarURL = aliasFile.getString("avatarURL");
+        name = aliasFile.getString("name");
+        tag = aliasFile.getString("tag");
+        if (avatarURL.equals("") || name.equals("") || tag.equals(""))
             return false;
-        }
+        return true;
     }
 
 }

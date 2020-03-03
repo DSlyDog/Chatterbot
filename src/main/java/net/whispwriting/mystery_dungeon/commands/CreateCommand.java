@@ -1,10 +1,11 @@
 package net.whispwriting.mystery_dungeon.commands;
 
-import io.bluecube.thunderbolt.io.ThunderFile;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import net.whispwriting.mystery_dungeon.utils.JFile;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ import java.util.Map;
 
 public class CreateCommand extends ListenerAdapter {
 
-    private ThunderFile file;
+    private JFile file;
     private String executor;
     private int count = -1;
 
@@ -86,7 +87,7 @@ public class CreateCommand extends ListenerAdapter {
             if (event.getMessage().getContentRaw().equalsIgnoreCase("confirm")){
                 File path = new File(event.getGuild().getName());
                 path.mkdir();
-                file = new ThunderFile(dungeonName, event.getGuild().getName());
+                file = new JFile(dungeonName, event.getGuild().getName());
                 file.set("name", dungeonName);
                 file.set("floors", numberOfFloors);
                 List<String> mons = new ArrayList<>();
