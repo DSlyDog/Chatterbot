@@ -51,7 +51,7 @@ public class JFile {
             e.printStackTrace();
             return "";
         }catch(ParseException e){
-            System.err.println("parse failed for " + name);
+            System.err.println("parse failed for " + file.getPath());
             e.printStackTrace();
             return "";
         }
