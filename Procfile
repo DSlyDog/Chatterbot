@@ -1,1 +1,1 @@
-worker: java target/classes/net/whispwriting/mystery_dungeon/Chatterbot
+worker: java -jar target/Chatterbot-1.0.jar

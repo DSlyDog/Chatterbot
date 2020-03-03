@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chatterbot">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chatterbot</output-path>
+    <root id="archive" name="Chatterbot.jar">
+      <element id="module-output" name="Chatterbot" />
+      <element id="library" level="project" name="Maven: club.minnced:discord-webhooks:0.2.0" />
+      <element id="library" level="project" name="Maven: net.dv8tion:JDA:4.1.1_110" />
+    </root>
+  </artifact>
+</component>
