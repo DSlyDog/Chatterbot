@@ -1,1 +1,1 @@
-worker: java -jar out\artifacts\Chatterbot\Chatterbot.jar
+worker: java -jar out/artifacts/Chatterbot/Chatterbot.jar
