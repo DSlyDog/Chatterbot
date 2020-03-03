@@ -85,7 +85,7 @@ public class Alias {
         avatarURL = aliasFile.getString("avatarURL");
         name = aliasFile.getString("name");
         tag = aliasFile.getString("tag");
-        if (avatarURL.equals("") || name.equals("") || tag.equals(""))
+        if (name.equals("") || tag.equals(""))
             return false;
         return true;
     }

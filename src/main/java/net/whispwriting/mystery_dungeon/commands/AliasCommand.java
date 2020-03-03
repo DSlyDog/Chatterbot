@@ -25,6 +25,10 @@ public class AliasCommand extends ListenerAdapter {
                     nameBuilder.append(messageParts[i]).append(" ");
             }
             String name = nameBuilder.toString();
+            if (name.equals("")){
+                event.getChannel().sendMessage("Sorry, I could not create an alias for you. You must give it a name.").queue();
+                return;
+            }
             Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), true);
             alias.setTag(name);
             List<Message.Attachment> images = event.getMessage().getAttachments();
