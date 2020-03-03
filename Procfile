@@ -1,1 +1,1 @@
-worker: java -jar target/Chatterbot-1.0.jar
+worker: java -jar target/Chatterbot-1.0-jar-with-dependencies.jar

@@ -23,6 +23,14 @@ public class JFile {
         if (!fPath.exists())
             fPath.mkdirs();
         file = new File(fPath, name + ".json");
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                System.err.println("Failed to create file");
+                e.printStackTrace();
+            }
+        }
     }
 
     public void set(String path, Object object){
@@ -77,16 +85,20 @@ public class JFile {
 
     public List<String> getStringList(String path){
         try {
-            reader = new FileReader(file);
-            JSONObject object = (JSONObject) parser.parse(reader);
-            JSONArray list = (JSONArray) object.get(path);
-            List<String> strings = new ArrayList<>();
-            for (Object obj : list){
-                String str = (String) obj;
-                strings.add(str);
+            if (file.length() != 0) {
+                reader = new FileReader(file);
+                JSONObject object = (JSONObject) parser.parse(reader);
+                JSONArray list = (JSONArray) object.get(path);
+                List<String> strings = new ArrayList<>();
+                for (Object obj : list) {
+                    String str = (String) obj;
+                    strings.add(str);
+                }
+                reader.close();
+                return strings;
+            }else{
+                return null;
             }
-            reader.close();
-            return strings;
         }catch(NullPointerException e){
             return null;
         } catch (Exception e){
