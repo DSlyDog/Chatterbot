@@ -1,1 +1,1 @@
-worker: java $JAVA_OPTS -cp target/classes:target/dependency/* Chatterbot
+worker: java target/classes/net/whispwriting/mystery_dungeon/Chatterbot
