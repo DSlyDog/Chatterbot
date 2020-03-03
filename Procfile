@@ -1,2 +1,1 @@
-worker: cd target
-worker: ls
+worker: java -jar out\artifacts\Chatterbot\Chatterbot.jar
