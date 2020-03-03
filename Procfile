@@ -1,1 +1,1 @@
-worker: ls
+worker: cd target | ls
