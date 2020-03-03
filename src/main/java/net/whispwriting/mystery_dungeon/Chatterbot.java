@@ -23,7 +23,7 @@ public class Chatterbot {
     public static TalkAsAlias talkAsAlias = new TalkAsAlias();
 
     public static void main(String[] args) throws LoginException {
-        jda = new JDABuilder(AccountType.BOT).setToken("Njg0MTY5MzcyMTEzMzA1NjEx.Xl2MaA.BSA0gXdua9eo6DxXqpbfs1HOpm0").build();
+        jda = new JDABuilder(AccountType.BOT).setToken("NjQxNzUzMTUyNjMwMjkyNTQx.Xl3cNQ.2e5epkyzKgYexWFMqSKnKPAL8d8").build();
         jda.getPresence().setActivity(Activity.playing("A Roleplay Game"));
         //jda.addEventListener(new HelpCommand());
         //jda.addEventListener(new CreateHelpCommand());
