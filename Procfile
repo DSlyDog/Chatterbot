@@ -1,1 +1,1 @@
-worker: class Chatterbot.class
+worker: java
