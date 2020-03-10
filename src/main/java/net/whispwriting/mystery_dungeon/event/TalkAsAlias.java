@@ -6,11 +6,9 @@ import club.minnced.discord.webhook.send.WebhookMessageBuilder;
 import net.dv8tion.jda.api.entities.Webhook;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import net.whispwriting.mystery_dungeon.utils.AccountList;
 import net.whispwriting.mystery_dungeon.utils.Alias;
 import net.whispwriting.mystery_dungeon.utils.IndexRegistry;
 
-import java.io.File;
 import java.util.*;
 
 public class TalkAsAlias extends ListenerAdapter {
@@ -63,7 +61,6 @@ public class TalkAsAlias extends ListenerAdapter {
 
             Alias alias = aliases.get(result+event.getAuthor().getDiscriminator());
             if (alias != null) {
-                alias.load(event.getAuthor().getDiscriminator());
                 Webhook pmdHook = null;
                 List<Webhook> hooks = event.getChannel().retrieveWebhooks().complete();
                 for (Webhook hook : hooks) {
@@ -105,14 +102,16 @@ public class TalkAsAlias extends ListenerAdapter {
 
     public void updateTag(String currentTag, String newTag, String delimiter){
         Alias alias = aliases.get(currentTag+delimiter);
-        alias.load(delimiter);
         aliases.remove(currentTag+delimiter);
         aliases.put(newTag+delimiter, alias);
     }
 
     public void addNew(String tag, String delimiter, Alias alias){
-        alias.load(delimiter);
         aliases.put(tag+delimiter, alias);
+    }
+
+    public Map<String, Alias> getAliases(){
+        return aliases;
     }
 
 }

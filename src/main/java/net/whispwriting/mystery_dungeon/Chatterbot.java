@@ -6,11 +6,10 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.whispwriting.mystery_dungeon.commands.*;
 import net.whispwriting.mystery_dungeon.event.TalkAsAlias;
-import net.whispwriting.mystery_dungeon.utils.AccountList;
 import net.whispwriting.mystery_dungeon.utils.Alias;
+import net.whispwriting.mystery_dungeon.utils.SQLUtil;
 
 import javax.security.auth.login.LoginException;
-import java.io.File;
 import java.util.*;
 
 public class Chatterbot {
@@ -19,8 +18,9 @@ public class Chatterbot {
     public static String prefix = "!";
     public static List<String> narrators = new ArrayList<>();
     public static List<String> narrating = new ArrayList<>();
-    public static AccountList accountList = new AccountList();
     public static TalkAsAlias talkAsAlias = new TalkAsAlias();
+    public static SQLUtil sql = new SQLUtil();
+    public static Map<String, Alias> aliases = new HashMap<>();
 
     public static void main(String[] args) throws LoginException {
         jda = new JDABuilder(AccountType.BOT).setToken("NjQxNzUzMTUyNjMwMjkyNTQx.Xl3cNQ.2e5epkyzKgYexWFMqSKnKPAL8d8").build();
@@ -35,29 +35,7 @@ public class Chatterbot {
         //jda.addEventListener(new CharacterInfoCommand());
         jda.addEventListener(new AliasCommand());
         jda.addEventListener(talkAsAlias);
-        Timer timer = new Timer();
-        TimerTask task = new TimerTask() {
-            @Override
-            public void run() {
-                accountList.load();
-                List<String> delimiters = accountList.getAccounts();
-                Map<String, Alias> aliases = new HashMap<>();
-                for (String delimiter : delimiters) {
-                    File path = new File(System.getProperty("user.dir") + "/"+delimiter+"/aliases");
-                    if (path.isDirectory()) {
-                        File[] files = path.listFiles();
-                        for (File file : files) {
-                            String aliasStr = file.getName().substring(0, file.getName().indexOf("."));
-                            Alias alias = new Alias(aliasStr, delimiter, false);
-                            alias.load(delimiter);
-                            aliases.put(alias.getTag()+delimiter, alias);
-                        }
-                    }
-                }
-                talkAsAlias.setAliasSet(aliases);
-            }
-        };
-        timer.schedule(task, 3000);
+        talkAsAlias.setAliasSet(sql.load(aliases));
     }
 
 }

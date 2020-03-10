@@ -7,11 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad256964-7bae-4f00-9469-56dc95a8264c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/accounts/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/accounts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/SQLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0017/aliases/Veldritch Deathblight.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3428/aliases/Mio Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4538/aliases/Pastel Bravenheart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4949/aliases/Coleson Rose.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4949/aliases/Diana Masters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4949/aliases/Sylvia Masters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4949/aliases/Vyvix Luxray.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Ayla Phoxpin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Kiernan Drox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Kristine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Narrator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Portia.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Roberta Calypso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Rose Auburndale.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5879/aliases/Testy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Alice the Pokemon Trainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Calypso.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Charles the Lucario.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Eiko Aki.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Jackal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Jackie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Mega Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Mio Blake.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Moxi the Meowstic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Quincy the Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Rapture The Thunderjaw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Ruby the Vulpix.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Salem the Mega Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Samantha the Mew.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Giratina.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Shelby the Lunar Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Snow the Pure Umbreon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/The Narrator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Titan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Victoria.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7321/aliases/Xevana the Buizel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chatterbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chatterbot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/accounts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/event/TalkAsAlias.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/event/TalkAsAlias.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/AccountList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/Alias.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/Alias.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,99 +78,6 @@
   <component name="FavoritesManager">
     <favorites_list name="Chatterbot" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1326">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -124,32 +85,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>exec</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CharacterInfoCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CreateCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java" />
-        <option value="$PROJECT_DIR$/accounts/accounts.json" />
-        <option value="$PROJECT_DIR$/5879/aliases/Brick.json" />
-        <option value="$PROJECT_DIR$/Make" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -158,128 +95,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Chatterbot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Chatterbot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Chatterbot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="243" />
-    <option name="y" value="141" />
-    <option name="width" value="1602" />
-    <option name="height" value="837" />
-  </component>
   <component name="ProjectId" id="1UihSyUemWkR8V1GoqPYsSzsEI6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="5879" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="5879" type="462c0819:PsiDirectoryNode" />
-              <item name="aliases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystery_dungeon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystery_dungeon" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystery_dungeon" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatterbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatterbot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystery_dungeon" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Thunderbolt.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="H:/plugin-dev/Padlock" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -329,220 +150,20 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.26153848" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5026042" side_tool="true" weight="0.2574899" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3179396" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32955465" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chatterbot.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CharacterInfoCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/CreateCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5879/aliases/Ayla Phoxpin.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/accounts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5879/aliases/Brick.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/JFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Chatterbot</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Chatterbot</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: club.minnced:discord-webhooks:0.2.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />

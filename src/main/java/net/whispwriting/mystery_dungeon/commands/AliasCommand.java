@@ -7,6 +7,7 @@ import net.whispwriting.mystery_dungeon.Chatterbot;
 import net.whispwriting.mystery_dungeon.utils.Alias;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -29,27 +30,27 @@ public class AliasCommand extends ListenerAdapter {
                 event.getChannel().sendMessage("Sorry, I could not create an alias for you. You must give it a name.").queue();
                 return;
             }
-            Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), true);
-            alias.setTag(name);
+            Alias alias;
             List<Message.Attachment> images = event.getMessage().getAttachments();
             if (!images.isEmpty()) {
                 Message.Attachment avatar = images.get(0);
                 String imageUrl = avatar.getUrl();
-                alias.setAvatarURL(imageUrl);
+                alias = new Alias(name, event.getAuthor().getDiscriminator(), imageUrl, name, Chatterbot.sql);
+            }else{
+                alias = new Alias(name, event.getAuthor().getDiscriminator(), Chatterbot.sql);
             }
-            alias.save();
-            TimerTask task = new TimerTask() {
-                @Override
-                public void run() {
-                    Chatterbot.talkAsAlias.addNew(name, event.getAuthor().getDiscriminator(), alias);
-                }
-            };
-            Timer timer = new Timer();
-            timer.schedule(task, 1000);
-            event.getChannel().sendTyping().queue();
-            event.getChannel().sendMessage("New alias, " + name +", successfully created.").queue();
-
-            Chatterbot.accountList.addAccount(event.getAuthor().getDiscriminator());
+            if (alias.save(event.getChannel())) {
+                TimerTask task = new TimerTask() {
+                    @Override
+                    public void run() {
+                        Chatterbot.talkAsAlias.addNew(name, event.getAuthor().getDiscriminator(), alias);
+                    }
+                };
+                Timer timer = new Timer();
+                timer.schedule(task, 1000);
+                event.getChannel().sendTyping().queue();
+                event.getChannel().sendMessage("New alias, " + name + ", successfully created.").queue();
+            }
         }
 
         else if (messageParts[0].equals("!aliasavatar")){
@@ -68,12 +69,16 @@ public class AliasCommand extends ListenerAdapter {
                 return;
             }
             Message.Attachment avatarImg = attachments.get(0);
-            Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), false);
-            alias.load(event.getAuthor().getDiscriminator());
-            alias.setAvatarURL(avatarImg.getUrl());
-            alias.save();
-            event.getChannel().sendTyping().queue();
-            event.getChannel().sendMessage("Avatar for " + name + " has been updated.").queue();
+            Alias alias = Chatterbot.talkAsAlias.getAliases().get(name + event.getAuthor().getDiscriminator());
+            if (alias != null) {
+                if (alias.setAvatarURL(avatarImg.getUrl(), event.getChannel())) {
+                    event.getChannel().sendTyping().queue();
+                    event.getChannel().sendMessage("Avatar for " + name + " has been updated.").queue();
+                }
+            }else{
+                event.getChannel().sendTyping().queue();
+                event.getChannel().sendMessage("You do not have an alias by the name, " + name + ".").queue();
+            }
 
         }else if (messageParts[0].equals("!alias")){
             StringBuilder nameBuilder = new StringBuilder();
@@ -84,8 +89,7 @@ public class AliasCommand extends ListenerAdapter {
                     nameBuilder.append(messageParts[i]).append(" ");
             }
             String name = nameBuilder.toString();
-            Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), true);
-            alias.load(event.getAuthor().getDiscriminator());
+            Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), Chatterbot.sql);
             try {
                 alias.getName().equals("");
                 //MysteryDungeon.talkAsAlias.addAlias(event.getAuthor().getDiscriminator(), alias, event.getChannel());
@@ -110,15 +114,14 @@ public class AliasCommand extends ListenerAdapter {
             }
             String name = nameBuilder.toString();
             name = name.substring(0, name.length()-1);
-            Alias alias = new Alias(name, event.getAuthor().getDiscriminator(), false);
-            boolean loaded = alias.load(event.getAuthor().getDiscriminator());
-            if (loaded) {
+            Alias alias = Chatterbot.talkAsAlias.getAliases().get(name + event.getAuthor().getDiscriminator());
+            if (alias != null) {
                 String oldTag = alias.getTag();
-                alias.setTag(newTag);
-                alias.save();
-                Chatterbot.talkAsAlias.updateTag(oldTag, newTag, event.getAuthor().getDiscriminator());
-                event.getChannel().sendTyping().queue();
-                event.getChannel().sendMessage("Tag for " + name + " has been updated to " + newTag +".").queue();
+                if (alias.setTag(newTag, event.getChannel())) {
+                    Chatterbot.talkAsAlias.updateTag(oldTag, newTag, event.getAuthor().getDiscriminator());
+                    event.getChannel().sendTyping().queue();
+                    event.getChannel().sendMessage("Tag for " + name + " has been updated to " + newTag + ".").queue();
+                }
             }else{
                 event.getChannel().sendTyping().queue();
                 event.getChannel().sendMessage("You do not have an alias by the name, " + name + ".").queue();

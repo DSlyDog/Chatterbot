@@ -2,6 +2,7 @@ package net.whispwriting.mystery_dungeon.utils;
 
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.TextChannel;
+import org.w3c.dom.Text;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,58 +11,39 @@ import java.nio.file.Path;
 
 public class Alias {
 
-    String name;
-    String avatarURL = ".";
-    JFile aliasFile;
-    String ownerID;
-    String tag;
+    private String name;
+    private String avatarURL = ".";
+    private JFile aliasFile;
+    private String ownerID;
+    private String tag;
+    private SQLUtil sql;
 
-    public Alias(String name, String ownerID, boolean registering){
-        File path = new File(System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-        if (!path.exists()) {
-            boolean successful = path.mkdirs();
-            System.out.println(successful);
-        }
-        File file = new File(System.getProperty("user.dir") + "/" + ownerID + "/aliases/" + name+".json");
-        if (file.exists()) {
-            aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-            avatarURL = aliasFile.getString("avatarURL");
-            this.name = name;
-        }else{
-            aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-            avatarURL = aliasFile.getString("avatarURL");
-            this.ownerID = aliasFile.getString("ownerID");
-            this.name = name;
-            this.ownerID = ownerID;
-            System.out.println("built");
-        }
-    }
-
-    public void save(){
-        aliasFile.set("name", name);
-        aliasFile.set("avatarURL", avatarURL);
-        aliasFile.set("tag", tag);
-        try {
-            aliasFile.save();
-        }catch(IOException e){
-            e.printStackTrace();
-        }
-    }
-
-    public void setName(String name){
+    public Alias(String name, String ownerID, SQLUtil sql){
         this.name = name;
-    }
-
-    public void setAvatarURL(String avatarURL){
-        this.avatarURL = avatarURL;
-    }
-
-    public void setOwnerID(String ownerID){
         this.ownerID = ownerID;
+        this.sql = sql;
     }
 
-    public void setTag(String tag){
+    public Alias(String name, String ownerID, String avatar, String tag, SQLUtil sql){
+        this.name = name;
+        this.ownerID = ownerID;
+        this.avatarURL = avatar;
         this.tag = tag;
+        this.sql = sql;
+    }
+
+    public boolean save(TextChannel channel){
+        return sql.insert(name, ownerID, avatarURL, tag, channel);
+    }
+
+    public boolean setAvatarURL(String avatarURL, TextChannel channel){
+        this.avatarURL = avatarURL;
+        return sql.update(ownerID, "avatar", avatarURL, name, channel);
+    }
+
+    public boolean setTag(String tag, TextChannel channel){
+        this.tag = tag;
+        return sql.update(ownerID, "tag", tag, name, channel);
     }
 
     public String getName(){
@@ -80,14 +62,9 @@ public class Alias {
         return tag;
     }
 
-    public boolean load(String ownerID){
-        aliasFile = new JFile(name, System.getProperty("user.dir") + "/" + ownerID + "/aliases/");
-        avatarURL = aliasFile.getString("avatarURL");
-        name = aliasFile.getString("name");
-        tag = aliasFile.getString("tag");
-        if (name.equals("") || tag.equals(""))
-            return false;
-        return true;
+    @Override
+    public String toString(){
+        return name + "\n" + ownerID + "\n";
     }
 
 }
