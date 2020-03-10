@@ -2,14 +2,12 @@ net\whispwriting\mystery_dungeon\commands\AliasCommand.class
 net\whispwriting\mystery_dungeon\utils\PMDHook$EmbedObject$Field.class
 net\whispwriting\mystery_dungeon\typing\Fairy.class
 net\whispwriting\mystery_dungeon\commands\AliasCommand$1.class
-net\whispwriting\mystery_dungeon\Chatterbot$1.class
 net\whispwriting\mystery_dungeon\utils\PMDHook$1.class
 net\whispwriting\mystery_dungeon\utils\JFile.class
 net\whispwriting\mystery_dungeon\event\TalkAsAlias.class
 net\whispwriting\mystery_dungeon\utils\IndexRegistry.class
 net\whispwriting\mystery_dungeon\commands\NarratingCommand.class
 net\whispwriting\mystery_dungeon\typing\Fighting.class
-net\whispwriting\mystery_dungeon\utils\AccountList.class
 net\whispwriting\mystery_dungeon\typing\Dragon.class
 net\whispwriting\mystery_dungeon\typing\Ice.class
 net\whispwriting\mystery_dungeon\typing\Dark.class
@@ -20,6 +18,7 @@ net\whispwriting\mystery_dungeon\typing\Rock.class
 net\whispwriting\mystery_dungeon\commands\NarrateCommand.class
 net\whispwriting\mystery_dungeon\utils\Utility.class
 net\whispwriting\mystery_dungeon\utils\Alias.class
+net\whispwriting\mystery_dungeon\utils\SQLUtil.class
 net\whispwriting\mystery_dungeon\typing\Grass.class
 net\whispwriting\mystery_dungeon\typing\TypeSelector.class
 net\whispwriting\mystery_dungeon\typing\Water.class

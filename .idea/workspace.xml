@@ -7,64 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad256964-7bae-4f00-9469-56dc95a8264c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/SQLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0017/aliases/Veldritch Deathblight.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3428/aliases/Mio Blake.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4538/aliases/Pastel Bravenheart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4949/aliases/Coleson Rose.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4949/aliases/Diana Masters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4949/aliases/Sylvia Masters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4949/aliases/Vyvix Luxray.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Ayla Phoxpin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Kiernan Drox.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Kristine.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Narrator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Portia.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Roberta Calypso.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Rose Auburndale.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5879/aliases/Testy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Alice the Pokemon Trainer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Blake.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Calypso.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Charles the Lucario.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Eiko Aki.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Jackal.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Jackie.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Mega Umbreon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Mio Blake.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Moxi the Meowstic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Quincy the Buizel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Rapture The Thunderjaw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Ruby the Vulpix.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Salem the Mega Umbreon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Samantha the Mew.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Buizel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Giratina.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Shadow Umbreon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Shelby the Lunar Umbreon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Snow the Pure Umbreon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/The Narrator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Titan.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Victoria.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7321/aliases/Xevana the Buizel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chatterbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chatterbot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/accounts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/commands/AliasCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/event/TalkAsAlias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/AccountList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/utils/Alias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/Chatterbot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/commands/AliasCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/event/TalkAsAlias.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/event/TalkAsAlias.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/AccountList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/Alias.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/whispwriting/mystery_dungeon/utils/Alias.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
