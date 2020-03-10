@@ -21,6 +21,7 @@ public class Alias {
     public Alias(String name, String ownerID, SQLUtil sql){
         this.name = name;
         this.ownerID = ownerID;
+        this.tag = name;
         this.sql = sql;
     }
 
