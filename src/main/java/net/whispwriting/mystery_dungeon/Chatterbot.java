@@ -23,7 +23,7 @@ public class Chatterbot {
     public static Map<String, Alias> aliases = new HashMap<>();
 
     public static void main(String[] args) throws LoginException {
-        jda = new JDABuilder(AccountType.BOT).setToken("").build();
+        jda = new JDABuilder(AccountType.BOT).setToken("NjQxNzUzMTUyNjMwMjkyNTQx.XnqGfw.v4tTzxgUpM6P_5TtECdpPixHHKA").build();
         jda.getPresence().setActivity(Activity.playing("A Roleplay Game"));
         //jda.addEventListener(new HelpCommand());
         //jda.addEventListener(new CreateHelpCommand());

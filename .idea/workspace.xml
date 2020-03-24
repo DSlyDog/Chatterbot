@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad256964-7bae-4f00-9469-56dc95a8264c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/Chatterbot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/whispwriting/mystery_dungeon/SetToken.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
